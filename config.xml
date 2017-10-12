@@ -8,6 +8,7 @@
 		<description>Song note of Praise Echoers</description>
 		<author href="http://wordpress2app.com/" email="wp2android.xyz@gmail.com">Wappress App Builder</author>
 		<preference name="phonegap-version" value="cli-6.5.0" />
+		<preference name='pgb-builder-version' value='2' />
 		<preference name="orientation" value="portrait" />
 		<preference name="fullscreen" value="true" />
 		<preference name="target-device" value="universal" />
