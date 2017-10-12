@@ -4,9 +4,15 @@
 		id        = "com.wordpress2app.webapp"
 		versionCode="2"
 		version   = "2.6.7">
+<<<<<<< HEAD
 		<name>PESongBook</name>
 		<description>Song Book of The Praise Echoers Singing Ministry</description>
 		<author href="" email="hipheckt@gmail.com">Afuwape Ifeoluwa</author>
+=======
+		<name>PE Songbook</name>
+		<description>Song not of Praise Echoers</description>
+		<author href="http://wordpress2app.com/" email="wp2android.xyz@gmail.com">Wappress App Builder</author>
+>>>>>>> 35d6d58de0e8e864c8ab3f52176f23c3f81a4431
 		<preference name="phonegap-version" value="cli-6.5.0" />
 		<preference name="orientation" value="auto" />
 		<preference name="fullscreen" value="true" />
