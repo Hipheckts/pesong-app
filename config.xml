@@ -5,9 +5,9 @@
 		versionCode="2"
 		version   = "2.6.7">
 		<name>PESongBook</name>
-		<description></description>
+		<description>Song Book of The Praise Echoers Singing Ministry</description>
 		<author href="" email="hipheckt@gmail.com">Afuwape Ifeoluwa</author>
-		<preference name="phonegap-version" value="cli-6.3.0" />
+		<preference name="phonegap-version" value="cli-6.5.0" />
 		<preference name="orientation" value="auto" />
 		<preference name="fullscreen" value="true" />
 		<preference name="target-device" value="universal" />
