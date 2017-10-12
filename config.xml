@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
-		id        = "com.wordpress2app.webapp"
-		versionCode="2"
-		version   = "2.6.7">
+		id        = "com.hiphecktsapp.pesongbook"
+		versionCode="1"
+		version   = "1.0">
 		<name>PESongBook</name>
 		<description>Song note of Praise Echoers</description>
-		<author href="http://wordpress2app.com/" email="wp2android.xyz@gmail.com">Wappress App Builder</author>
+		<author href="" email="hipheckt@gmail.com">Afuwape Ifeoluwa</author>
 		<preference name="phonegap-version" value="cli-6.5.0" />
 		<preference name='pgb-builder-version' value='2' />
 		<preference name="orientation" value="portrait" />
