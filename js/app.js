@@ -161,7 +161,7 @@ angular.module('SongBook', ['ionic', 'song.service'])
 
         if($stateParams.songId === undefined){
             $scope.action = 'Add';
-            $scope.btnaction = 'Save;
+            $scope.btnaction = 'Save';
         }else{
             $scope.action = 'Edit';
             $scope.btnaction = 'Update';
