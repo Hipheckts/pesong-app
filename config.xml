@@ -1,54 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<?xml version='1.0' encoding='utf-8'?>
-<widget
-        id="com.hipheckts.pesongbook"
-        version="1.0.1"
-        xmlns="http://www.w3.org/ns/widgets"
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:gap="http://phonegap.com/ns/1.0"
-        xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>PE SongBook</name>
-    <description>
-        Praise Echoers SongBook
-    </description>
-    <author email="hipheckt@gmail.com" href="">
-        Afuwape Ifeoluwa
-    </author>
-    <content src="index.html" />
-    <access origin="*" />
-
-    <preference name="Fullscreen" value="false" />
-    <preference name="phonegap-version" value="cli-6.4.0" /> <!-- Phonegap Build only -->
-
-    <plugin name="cordova-plugin-whitelist" version="*" />
-
-    	<plugin name="cordova.plugins.inappbrowser" version="*" />
-	<plugin name="cordova.plugins.network-information" version="*" />
-	<plugin name="cordova.plugins.splashscreen" version="*" />
-	<plugin name="cordova.plugins.socialsharing" version="*" />
-
-    <platform name="android">
-        <preference name="android-minSdkVersion" value="21" />
-        <preference name="android-targetSdkVersion" value="25" />
-
-        <icon src="resources/android/icon/drawable-ldpi-icon.png" density="ldpi"/>
-        <icon src="resources/android/icon/drawable-mdpi-icon.png" density="mdpi"/>
-        <icon src="resources/android/icon/drawable-hdpi-icon.png" density="hdpi"/>
-        <icon src="resources/android/icon/drawable-xhdpi-icon.png" density="xhdpi"/>
-        <icon src="resources/android/icon/drawable-xxhdpi-icon.png" density="xxhdpi"/>
-        <icon src="resources/android/icon/drawable-xxxhdpi-icon.png" density="xxxhdpi"/>
-        <splash src="resources/android/splash/drawable-land-ldpi-screen.png" density="land-ldpi"/>
-        <splash src="resources/android/splash/drawable-land-mdpi-screen.png" density="land-mdpi"/>
-        <splash src="resources/android/splash/drawable-land-hdpi-screen.png" density="land-hdpi"/>
-        <splash src="resources/android/splash/drawable-land-xhdpi-screen.png" density="land-xhdpi"/>
-        <splash src="resources/android/splash/drawable-land-xxhdpi-screen.png" density="land-xxhdpi"/>
-        <splash src="resources/android/splash/drawable-land-xxxhdpi-screen.png" density="land-xxxhdpi"/>
-        <splash src="resources/android/splash/drawable-port-ldpi-screen.png" density="port-ldpi"/>
-        <splash src="resources/android/splash/drawable-port-mdpi-screen.png" density="port-mdpi"/>
-        <splash src="resources/android/splash/drawable-port-hdpi-screen.png" density="port-hdpi"/>
-        <splash src="resources/android/splash/drawable-port-xhdpi-screen.png" density="port-xhdpi"/>
-        <splash src="resources/android/splash/drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
-        <splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
-    </platform>
-
-</widget>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		id        = "com.wordpress2app.webapp"
+		versionCode="2"
+		version   = "2.6.7">
+		<name>PE SongBook</name>
+		<description>Praise Echoers song book</description>
+		<author href="http://wordpress2app.com/" email="wp2android.xyz@gmail.com">Afuwape Ifeoluwa</author>
+		<preference name="phonegap-version" value="cli-6.5.0" />
+		<preference name="orientation" value="portrait" />
+		<preference name="fullscreen" value="true" />
+		<preference name="target-device" value="universal" />
+		<preference name="webviewbounce" value="true" />
+		<preference name="prerendered-icon" value="true" />
+		<preference name="stay-in-webview" value="true" />
+		<preference name="ios-statusbarstyle" value="default" />
+		<preference name="detect-data-types" value="true" />
+		<preference name="exit-on-suspend" value="false" />
+		<preference name="show-splash-screen-spinner" value="false" />
+		<preference name="auto-hide-splash-screen" value="true" />
+		<preference name="EnableViewportScale" value="true" />
+		<preference name="MediaPlaybackRequiresUserAction" value="false" />
+		<preference name="AllowInlineMediaPlayback" value="false" />
+		<preference name="BackupWebStorage" value="cloud" />
+		<preference name="TopActivityIndicator" value="gray" />
+		<preference name="KeyboardDisplayRequiresUserAction" value="false" />
+		<preference name="HideKeyboardFormAccessoryBar" value="false" />
+		<preference name="SuppressesIncrementalRendering" value="false" />
+		<preference name="android-minSdkVersion" value="14" />
+		<preference name="android-maxSdkVersion" value="24" />
+		<preference name="android-installLocation" value="auto" />
+		<preference name="SplashScreenDelay" value="3000" />
+		<preference name="ErrorUrl" value=""/>
+		<preference name="BackgroundColor" value="0x000000"/>
+		<preference name="KeepRunning" value="true"/>
+		<preference name="DisallowOverscroll" value="false"/>
+		<preference name="LoadingDialog" value=","/> 
+		<preference name="LoadUrlTimeoutValue" value="20000" />
+		<preference name="disable-cursor" value="false" />
+		<preference name="android-build-tool" value="gradle" />
+		
+		<feature name="http://api.phonegap.com/1.0/network"/>
+		<plugin name="cordova-plugin-whitelist" spec="1.3.0" />
+		<plugin name="org.apache.cordova.inappbrowser" spec="0.6.0" />
+		<plugin name="org.apache.cordova.network-information" spec="0.2.15" />
+		<plugin name="org.apache.cordova.splashscreen" spec="1.0.0" />
+		<plugin name="cordova-plugin-x-socialsharing" source="npm" spec="5.1.3" />
+		
+		<platform name="winphone" />
+		<icon gap:platform="winphone" src="www/res/icon/windows-phone/icon-48.png" />
+		<icon gap:platform="winphone" gap:role="background" src="www/res/icon/windows-phone/icon-173-tile.png" />
+		<gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
+		<icon gap:platform="ios" height="57" src="www/res/icon/ios/icon-57.png" width="57" />
+		<icon gap:platform="ios" height="72" src="www/res/icon/ios/icon-72.png" width="72" />
+		<icon gap:platform="ios" height="114" src="www/res/icon/ios/icon-57-2x.png" width="114" />
+		<icon gap:platform="ios" height="144" src="www/res/icon/ios/icon-72-2x.png" width="144" />
+		<gap:splash gap:platform="ios" height="480" src="www/res/screen/ios/screen-iphone-portrait.png" width="320" />
+		<gap:splash gap:platform="ios" height="960" src="www/res/screen/ios/screen-iphone-portrait-2x.png" width="640" />
+		<gap:splash gap:platform="ios" height="1136" src="www/res/screen/ios/screen-iphone-portrait-568h-2x.png" width="640" />
+		<gap:splash gap:platform="ios" height="1024" src="www/res/screen/ios/screen-ipad-portrait.png" width="768" />
+		<gap:splash gap:platform="ios" height="768" src="www/res/screen/ios/screen-ipad-landscape.png" width="1024" />
+		
+		<gap:platform name="android" />
+		<icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
+		<icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
+		<icon src="res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
+		<icon src="res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+		<icon src="res/icon/android/icon-192-xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
+		<icon src="res/icon/android/icon-144-xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
+		<gap:splash src="res/screen/android/screen-ldpi-portrait.jpg" gap:platform="android" gap:density="ldpi" />
+		<gap:splash src="res/screen/android/screen-mdpi-portrait.jpg" gap:platform="android" gap:density="mdpi" />
+		<gap:splash src="res/screen/android/screen-hdpi-portrait.jpg" gap:platform="android" gap:density="hdpi" />
+		<gap:splash src="res/screen/android/screen-xhdpi-portrait.jpg" gap:platform="android" gap:density="xhdpi" />
+		<gap:splash src="res/screen/android/screen-xxhdpi-portrait.jpg" gap:platform="android" gap:density="xxhdpi" />
+		<gap:splash src="res/screen/android/screen-xxxhdpi-portrait.jpg" gap:platform="android" gap:density="xxxhdpi" />
+		
+		<access origin="*"/>
+		<platform name="android">
+		<allow-intent href="market:*"/>
+		</platform>
+		<platform name="ios">
+		<allow-intent href="itms:*"/>
+		<allow-intent href="itms-apps:*"/>
+		</platform>
+	</widget>
