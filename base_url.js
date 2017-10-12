@@ -1,0 +1,1 @@
+var url = "http://cargoland.afuwapeifeoluwa-work.cloud-press.net/wp-content/plugins/mobile-app-builder-by-wappress/";
