@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
-		id        = "com.wordpress2app.webapp"
-		versionCode="2"
-		version   = "2.6.7">
+		id        = "com.hipheckts.pesongbook"
+		versionCode="1"
+		version   = "1.0.1">
 		<name>PE SongBook</name>
 		<description>Praise Echoers song book</description>
-		<author href="http://wordpress2app.com/" email="wp2android.xyz@gmail.com">Afuwape Ifeoluwa</author>
+		<author href="" email="hipheckt@gmail.com">Afuwape Ifeoluwa</author>
 		<preference name="phonegap-version" value="cli-6.5.0" />
-		<preference name="orientation" value="portrait" />
+		<preference name="orientation" value="auto" />
 		<preference name="fullscreen" value="true" />
 		<preference name="target-device" value="universal" />
 		<preference name="webviewbounce" value="true" />
