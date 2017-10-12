@@ -2,10 +2,10 @@
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		id        = "com.wordpress2app.webapp"
-		versionCode="1"
-		version   = "1.0">
-		<name>PESongBook</name>
-		<description>Song Book of The Praise Echoers Singing Ministry</description>
+		versionCode="2"
+		version   = "2.6.7">
+		<name>PE Songbook</name>
+		<description>Song not of Praise Echoers</description>
 		<author href="http://wordpress2app.com/" email="wp2android.xyz@gmail.com">Wappress App Builder</author>
 		<preference name="phonegap-version" value="cli-6.5.0" />
 		<preference name="orientation" value="auto" />
