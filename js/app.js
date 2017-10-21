@@ -190,11 +190,6 @@ angular.module('SongBook', ['ionic', 'song.service'])
                     title: 'Error - Input Required',
                     template: 'Please enter lyrics.'
                 });
-            }else if (song.key === undefined || song.key === null || song.key === ""){
-                $ionicPopup.alert({
-                    title: 'Error - Input Required',
-                    template: 'Please enter lyrics.'
-                });
             }else{
                 if($stateParams.songId === undefined) {
                     DBService.saveSong(song);
